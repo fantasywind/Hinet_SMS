@@ -16,11 +16,16 @@ sms.on('logined', function () {
   sms.send('0912333333', 'Test Message');
 });
 
-sms.auth();
+sms.connect(function () {
+  sms.auth();
+});
 ```
 
 ## Methods
 The module defines the following functions:
+
+### connect()
+Connect socket
 
 ### auth()
 Get auth to CHT Server
