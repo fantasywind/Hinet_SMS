@@ -24,7 +24,7 @@ sms.connect(function () {
 ## Methods
 The module defines the following functions:
 
-### connect()
+### connect(callback)
 Connect socket
 
 ### auth()
