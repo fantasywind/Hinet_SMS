@@ -1,0 +1,28 @@
+{
+  "name": "Hinet_SMS",
+  "version": "1.0.0",
+  "description": "Hinet telecom from Taiwan, sms api module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fantasywind/Hinet_SMS.git"
+  },
+  "keywords": [
+    "hinet",
+    "sms",
+    "telecom",
+    "cht"
+  ],
+  "author": "Chia Yu Pai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fantasywind/Hinet_SMS/issues"
+  },
+  "homepage": "https://github.com/fantasywind/Hinet_SMS",
+  "dependencies": {
+    "bufferpack": "0.0.6"
+  }
+}
